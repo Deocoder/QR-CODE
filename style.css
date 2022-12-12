@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(220, 15%, 55%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  /* border: 5px solid #111; */
+  border-radius: 15px;
+  height: 420px;
+  padding: 10px;
+  width: 260px;
+  background: hsl(0, 0%, 100%);
+}
+
+.img-con {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-con img {
+  border-radius: 10px;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.header-text {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.header-text h3 {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
+}
+
+.p-text {
+  margin-top: 12px;
+  line-height: 18px;
+ text-align: center;
+}
+
+.p-text p {
+  font-size: 13px;
+  opacity: 0.8;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 00;
+}
+
+.challenge-description {
+  margin-top: 20px;
+}
+
+.challenge-description p {
+  font-weight: 700;
+}
+
+.challenge-description a {
+  text-decoration: none;
+  color:hsl(218, 44%, 22%);
+}
